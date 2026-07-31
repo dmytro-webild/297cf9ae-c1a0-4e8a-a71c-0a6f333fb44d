@@ -1,5 +1,5 @@
 import FooterMinimal from '@/components/sections/footer/FooterMinimal';
-import NavbarFloating from '@/components/ui/NavbarFloating';
+import NavbarFloatingLogo from '@/components/ui/NavbarFloatingLogo';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 import SiteBackgroundSlot from "@/components/ui/SiteBackgroundSlot";
 import { Instagram, Linkedin, Twitter } from "lucide-react";
@@ -42,8 +42,9 @@ export default function Layout() {
     <StyleProvider buttonVariant="bubble" siteBackground="noise" heroBackground="gradientBars">
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
-        <NavbarFloating
+        <NavbarFloatingLogo
       logo="TERANGA JETS"
+      logoImageSrc="https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785521020960-pbcidjb1.png"
       ctaButton={{
         text: "Request Flight Support",
         href: "#contact",
