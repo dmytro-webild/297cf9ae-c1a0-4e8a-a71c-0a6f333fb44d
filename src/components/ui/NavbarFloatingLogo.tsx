@@ -49,9 +49,9 @@ const NavbarFloatingLogo = ({ logo, logoImageSrc, navItems, ctaButton }: NavbarF
       <nav data-section="navbar" className="fixed z-1000 top-5 left-1/2 -translate-x-1/2 w-content-width">
         <div className="mx-auto w-full md:w-1/2 overflow-hidden rounded backdrop-blur-sm card">
           <div className="relative z-10 flex items-center justify-between gap-3 xl:gap-4 2xl:gap-5 p-3 xl:p-4 2xl:p-5">
-            <a href="/" className="flex items-center gap-2">
-              <img src={logoImageSrc} alt={logo} className="h-8 w-8 rounded-full object-cover" />
-              <span className="text-xl font-medium text-foreground">{logo}</span>
+            <a href="/" className="flex items-center gap-3">
+              <img src={logoImageSrc} alt={logo} className="h-12 w-auto object-contain" />
+              <span className="text-2xl font-bold tracking-wide text-foreground">{logo}</span>
             </a>
 
             <div
