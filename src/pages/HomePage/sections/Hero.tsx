@@ -12,7 +12,7 @@ export default function HeroSection(): React.JSX.Element {
         title="Reliable Flight Support Across Africa"
         secondaryButton={{"href":"#contact","text":"Contact 24/7 Operations"}}
         tag="African Hospitality. Global Aviation Excellence."
-        description="24/7 Flight Support, Permit Coordination, Ground Handling, Fuel Arrangements and Operational Solutions for Business Aviation."
+        description="24/7 Flight Support, Landing & Overflight Permits, Ground Handling and Fuel Coordination Across Africa."
         textAnimation="slide-up"
       />
     </div>
