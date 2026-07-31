@@ -11,7 +11,7 @@ export default function AboutSection(): React.JSX.Element {
         <SectionErrorBoundary name="about">
               <AboutTextSplit
         title="Why Choose Teranga Jets"
-        descriptions={["Teranga Jets provides premium flight support based in Dakar, Senegal. We combine traditional African hospitality with rigorous international standards to ensure seamless operations across the continent.","Why Choose Teranga Jets: We offer 24/7 Operations, Fast Response, Local Expertise, Personalized Support, International Standards, and a Dedicated Operations Team.","Trust Teranga Jets as your strategic partner in African aviation. We handle the complexities so you can focus on your mission."]}
+        descriptions={["Built by Aviation Professionals. Trusted for Every Mission.","At Teranga Jets, we understand that every flight is unique.","Our mission is to deliver reliable, responsive and personalized operational support, allowing operators to focus on what matters most: safe and efficient flight operations.","From permits and ground handling to fuel coordination and crew services, we provide a single point of contact for seamless operations across Africa and beyond."]}
         textAnimation="slide-up"
       />
         </SectionErrorBoundary>
