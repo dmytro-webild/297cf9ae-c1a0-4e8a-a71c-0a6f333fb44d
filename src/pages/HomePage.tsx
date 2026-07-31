@@ -6,7 +6,6 @@ import FeaturesMediaCarousel from '@/components/sections/features/FeaturesMediaC
 import HeroSplitVerticalMarqueeTall from '@/components/sections/hero/HeroSplitVerticalMarqueeTall';
 import MetricsFeatureCards from '@/components/sections/metrics/MetricsFeatureCards';
 import SocialProofMarquee from '@/components/sections/social-proof/SocialProofMarquee';
-import TestimonialOverlayCards from '@/components/sections/testimonial/TestimonialOverlayCards';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
 export default function HomePage() {
@@ -219,53 +218,6 @@ export default function HomePage() {
     </SectionErrorBoundary>
   </div>
 
-  <div id="testimonials" data-section="testimonials">
-    <SectionErrorBoundary name="testimonials">
-          <TestimonialOverlayCards
-      tag="Client Success"
-      title="Trusted by Aviation Leaders"
-      description="Hear what our global partners say about Teranga Jets."
-      testimonials={[
-        {
-          name: "Marcello V.",
-          role: "Operations Manager",
-          company: "Global Charters",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/joyful-young-bald-call-center-man-wearing-headset-sitting-desk-with-work-tools-looking-laptop-showing-thumb-up-isolated-purple_141793-84110.jpg",
-        },
-        {
-          name: "Sarah L.",
-          role: "Dispatch Director",
-          company: "Jet Solutions",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/senior-business-woman-smiling_1187-1564.jpg",
-        },
-        {
-          name: "David K.",
-          role: "CEO",
-          company: "Africa Aero",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/brainstorming-with-colleague-middle-deck_1098-14320.jpg",
-        },
-        {
-          name: "Elena R.",
-          role: "Flight Coordinator",
-          company: "MEDEVAC Int",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/soldier-camouflage-uniform-wearing-protective-gloves-mask-showing-stop-sign-hospital-entrance_342744-922.jpg",
-        },
-        {
-          name: "James B.",
-          role: "Logistics Lead",
-          company: "Cargo Wings",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-female-flight-attendant-studio_23-2150312725.jpg",
-        },
-      ]}
-      textAnimation="fade-blur"
-    />
-    </SectionErrorBoundary>
-  </div>
 
   <div id="social-proof" data-section="social-proof">
     <SectionErrorBoundary name="social-proof">
