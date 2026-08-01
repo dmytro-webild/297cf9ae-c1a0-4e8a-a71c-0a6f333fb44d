@@ -10,7 +10,7 @@ const items = [
   {
     title: "Senegal",
     description: "Dakar HQ",
-    imageSrc: "http://img.b2bpic.net/free-photo/sky-april-18-2024_58702-17153.jpg"
+    imageSrc: "https://images.pexels.com/photos/14434228/pexels-photo-14434228.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=14434228"
   },
   {
     title: "Mauritania",
