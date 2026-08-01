@@ -9,7 +9,7 @@ import { cls } from "@/lib/utils";
 const items = [
   {
     title: "Senegal",
-    description: "Dakar HQ",
+    description: "",
     imageSrc: "https://images.pexels.com/photos/14434228/pexels-photo-14434228.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=14434228"
   },
   {
@@ -19,12 +19,12 @@ const items = [
   },
   {
     title: "Cape Verde",
-    description: "Transit Support",
-    imageSrc: "http://img.b2bpic.net/free-photo/asian-girl-walking-street-reading-tablet-drinking-coffee-outdoors_1258-193184.jpg"
+    description: "",
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785562302864-r4djm0f0.webp"
   },
   {
     title: "Morocco",
-    description: "Regional Hub",
+    description: "",
     imageSrc: "https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785561471398-28copskp.jpg"
   },
   {
@@ -34,11 +34,11 @@ const items = [
   },
   {
     title: "Ivory Coast",
-    description: "Landing Support",
+    description: "",
     imageSrc: "https://images.pexels.com/photos/7381958/pexels-photo-7381958.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=7381958"
   },
   {
-    title: "And much more",
+    title: "And much more around the globe around the globe",
     description: "",
     imageSrc: "https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785560227995-pbixsfsq.jpg"
   }
