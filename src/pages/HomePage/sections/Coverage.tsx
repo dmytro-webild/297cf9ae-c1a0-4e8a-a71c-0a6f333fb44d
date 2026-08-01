@@ -35,7 +35,7 @@ const items = [
   {
     title: "Ivory Coast",
     description: "Landing Support",
-    imageSrc: "http://img.b2bpic.net/free-photo/black-white-portrait-working-woman-celebration-labour-day_23-2151296010.jpg"
+    imageSrc: "https://images.pexels.com/photos/7381958/pexels-photo-7381958.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=7381958"
   },
   {
     title: "Nigeria",
