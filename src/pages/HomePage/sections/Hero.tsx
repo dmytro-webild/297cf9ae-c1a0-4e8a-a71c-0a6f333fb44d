@@ -12,7 +12,7 @@ export default function HeroSection(): React.JSX.Element {
         textAnimation="slide-up"
         description="24/7 Flight Support, Landing & Overflight Permits, Ground Handling and Fuel Coordination Across Africa."
         secondaryButton={{"text":"Contact 24/7 Operations","href":"#contact"}}
-        imageSrc="https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785560227995-pbixsfsq.jpg"
+        imageSrc="https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785560602855-khql2znq.png"
         primaryButton={{"text":"Request Support Now","href":"#contact"}}
       />
     </div>
