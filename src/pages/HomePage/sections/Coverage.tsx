@@ -15,7 +15,7 @@ const items = [
   {
     title: "Mauritania",
     description: "Operations",
-    imageSrc: "http://img.b2bpic.net/free-photo/african-american-copilot-holding-lever-takeoff-with-airplane-flying-aircraft-with-dashboard-power-buttons-control-panel-command-radar-navigation-windscreen-compass-close-up_482257-50406.jpg"
+    imageSrc: "https://images.pexels.com/photos/35752246/pexels-photo-35752246.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=35752246"
   },
   {
     title: "Cape Verde",
