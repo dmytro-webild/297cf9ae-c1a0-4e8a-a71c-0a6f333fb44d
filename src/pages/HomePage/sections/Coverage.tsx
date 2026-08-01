@@ -30,7 +30,7 @@ const items = [
   {
     title: "Guinea",
     description: "Ground Handling",
-    imageSrc: "http://img.b2bpic.net/free-photo/sports-plane-air-racing-render-3d-illustration_654080-72.jpg"
+    imageSrc: "https://images.pexels.com/photos/12251153/pexels-photo-12251153.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=12251153"
   },
   {
     title: "Ivory Coast",
