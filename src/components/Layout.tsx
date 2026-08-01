@@ -1,8 +1,7 @@
-import FooterMinimal from '@/components/sections/footer/FooterMinimal';
+import FooterBasic from '@/components/sections/footer/FooterBasic';
 import NavbarFloatingLogo from '@/components/ui/NavbarFloatingLogo';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 import SiteBackgroundSlot from "@/components/ui/SiteBackgroundSlot";
-import { Instagram, Linkedin, Twitter } from "lucide-react";
 import { Outlet } from 'react-router-dom';
 import { StyleProvider } from "@/components/ui/StyleProvider";
 
@@ -55,22 +54,27 @@ export default function Layout() {
         <Outlet />
       </main>
       <SectionErrorBoundary name="footer">
-        <FooterMinimal
-      brand="Teranga Jets © 2024"
-      copyright="All rights reserved. Global Aviation Excellence."
-      socialLinks={[
+        <FooterBasic
+      leftText="Teranga Jets © 2024"
+      rightText="All rights reserved. Global Aviation Excellence."
+      columns={[
         {
-          icon: Twitter,
-          href: "#",
+          title: "Company",
+          items: [
+            { label: "About Us", href: "#about" },
+            { label: "Services", href: "#services" },
+            { label: "Coverage", href: "#coverage" },
+            { label: "Contact", href: "#contact" }
+          ]
         },
         {
-          icon: Linkedin,
-          href: "#",
-        },
-        {
-          icon: Instagram,
-          href: "#",
-        },
+          title: "Social",
+          items: [
+            { label: "Twitter", href: "#" },
+            { label: "LinkedIn", href: "#" },
+            { label: "Instagram", href: "#" }
+          ]
+        }
       ]}
     />
       </SectionErrorBoundary>
