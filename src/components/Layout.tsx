@@ -1,4 +1,4 @@
-import FooterBasic from '@/components/sections/footer/FooterBasic';
+import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia';
 import NavbarFloatingLogo from '@/components/ui/NavbarFloatingLogo';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 import SiteBackgroundSlot from "@/components/ui/SiteBackgroundSlot";
@@ -54,9 +54,13 @@ export default function Layout() {
         <Outlet />
       </main>
       <SectionErrorBoundary name="footer">
-        <FooterBasic
-      leftText="Teranga Jets © 2024"
-      rightText="All rights reserved. Global Aviation Excellence."
+        <FooterSimpleMedia
+      imageSrc="https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785521020960-pbcidjb1.png"
+      brand="TERANGA JETS"
+      copyright="Teranga Jets © 2024"
+      links={[
+        { label: "All rights reserved. Global Aviation Excellence.", href: "#" }
+      ]}
       columns={[
         {
           title: "Company",
