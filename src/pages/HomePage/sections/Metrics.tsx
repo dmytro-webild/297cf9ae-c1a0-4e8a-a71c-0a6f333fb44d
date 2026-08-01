@@ -24,7 +24,7 @@ const metrics = [
     value: "Africa & International"
   },
   {
-    title: "Operational Excellence",
+    title: "Why Operators Trust Us",
     features: [
       { text: "Dedicated Operations Team", icon: Users },
       { text: "One Point of Contact", icon: Headset }
