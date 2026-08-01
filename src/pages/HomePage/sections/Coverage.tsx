@@ -25,7 +25,7 @@ const items = [
   {
     title: "Morocco",
     description: "Regional Hub",
-    imageSrc: "http://img.b2bpic.net/free-photo/comic-style-airplane-illustration_23-2151813606.jpg"
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785561471398-28copskp.jpg"
   },
   {
     title: "Guinea",
