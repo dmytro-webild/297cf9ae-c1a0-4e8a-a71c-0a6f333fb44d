@@ -9,7 +9,7 @@ const primaryButton = {
   href: "mailto:ops@terangajets.com"
 };
 const secondaryButton = {
-  text: "WhatsApp Operations",
+  text: "WhatsApp ",
   href: "https://wa.me/221000000000"
 };
 
@@ -25,7 +25,7 @@ const ContactInline = () => {
               </div>
 
               <TextAnimation
-                text={"24/7 Flight Support, Permits, Ground Handling and Operational Solutions Across Africa."}
+                text={"24/7 Flight Support, Permits,  and Operational Solutions Across Africa."}
                 variant={"slide-up"}
                 gradientText={true}
                 tag="h2"
@@ -38,7 +38,7 @@ const ContactInline = () => {
               </div>
 
               <p className="mt-4 text-sm text-accent text-center font-medium">
-                Available 24/7 for Business Aviation, Cargo, Charter and MEDEVAC Operations.
+                Available 24/7 for Business Aviation, Cargo, Charter and MEDEVAC .
               </p>
             </div>
           </div>
