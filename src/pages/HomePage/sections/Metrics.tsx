@@ -13,7 +13,7 @@ export default function MetricsSection(): React.JSX.Element {
         tag="Performance Highlights"
         title="Operational Excellence"
         description="Proven capability and dedication to mission success."
-        metrics={[{"title":"Dedicated Support","value":"24/7","features":["Real-time updates","Instant communication"]},{"title":"Regional Expertise","features":["Deep local knowledge","Permit efficiency"],"value":"West Africa"},{"title":"Mission Success","features":["Operational stability","Proven consistency"],"value":"Focus"}]}
+        metrics={[{"title":"Dedicated Support","value":"24/7","features":["Real-time updates","Instant communication"]},{"title":"Regional Expertise","features":["Deep local knowledge","Permit efficiency"],"value":"Africa & International"},{"title":"Mission Success","features":["Operational stability","Proven consistency"],"value":"Focus"}]}
         textAnimation="fade"
       />
         </SectionErrorBoundary>
