@@ -30,7 +30,7 @@ const items = [
   {
     title: "Guinea",
     description: "Ground Handling",
-    imageSrc: "https://picsum.photos/seed/343146927/1200/800"
+    imageSrc: "https://images.pexels.com/photos/3030321/pexels-photo-3030321.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=3030321"
   },
   {
     title: "Ivory Coast",
