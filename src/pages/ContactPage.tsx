@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { routes } from "@/routes";
 import FeaturesIconCards from "@/components/sections/features/FeaturesIconCards";
 import ContactCta from "@/components/sections/contact/ContactCta";
 import Input from "@/components/ui/Input";
@@ -17,13 +16,9 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-svh bg-background text-foreground">
-      <Navbar
-        ctaButton={{ text: "Flight Support", href: "/contact" }}
-      />
-
       <section className="px-4 max-w-content-width mx-auto">
         <div className="text-center max-w-content-width mx-auto">
-          <Tag text="Operations & Support" className="mb-4" />
+          <Tag text="Operations & Support" className="mb-4 mx-auto" />
           <h1 className="text-4xl font-bold tracking-tight mb-4">Contact Our Operations Team</h1>
           <p className="text-lg text-muted-foreground">
             Available 24/7 for Flight Support, Permits, Ground Handling and Operational Assistance across Africa.
@@ -137,7 +132,6 @@ export default function ContactPage() {
         secondaryButton={{ text: "WhatsApp Ops Desk", href: "https://wa.me/12817074824" }}
         textAnimation="slide-up"
       />
-
     </div>
   );
 }
