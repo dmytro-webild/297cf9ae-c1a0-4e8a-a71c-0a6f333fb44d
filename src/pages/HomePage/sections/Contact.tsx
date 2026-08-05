@@ -10,7 +10,7 @@ const primaryButton = {
 };
 const secondaryButton = {
   text: "WhatsApp ",
-  href: "https://wa.me/221000000000"
+  href: "https://wa.me/12817074824"
 };
 
 const ContactInline = () => {
