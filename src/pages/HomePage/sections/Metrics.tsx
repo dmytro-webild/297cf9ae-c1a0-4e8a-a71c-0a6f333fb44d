@@ -74,21 +74,21 @@ const MetricsInline = () => (
       <ScrollReveal variant="fade-blur">
         <GridOrCarousel>
           {metrics.map((metric) => (
-            <div key={metric.value} className="flex flex-col justify-between gap-4 xl:gap-5 2xl:gap-6 p-6 xl:p-7 2xl:p-8 h-full card rounded">
-              <div className="flex flex-col gap-0 min-w-0">
-                <span className="text-8xl md:text-7xl font-semibold leading-none truncate">{metric.value}</span>
-                <span className="text-xl truncate">{metric.title}</span>
+            <div key={metric.value} className="flex flex-col justify-between gap-5 p-6 md:p-7 xl:p-8 h-full card rounded">
+              <div className="flex flex-col gap-2 min-w-0">
+                <span className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight tracking-tight text-foreground break-words">{metric.value}</span>
+                <span className="text-sm md:text-base font-medium text-accent leading-snug">{metric.title}</span>
               </div>
 
-              <div className="flex flex-col gap-3 pt-5 border-t border-foreground/5">
+              <div className="flex flex-col gap-3 pt-5 border-t border-foreground/10 mt-auto">
                 {metric.features.map((feature) => {
                   const Icon = feature.icon;
                   return (
                     <div key={feature.text} className="flex items-start gap-3">
                       <div className="flex items-center justify-center shrink-0 size-6 primary-button rounded">
-                        <Icon className="size-3 text-primary-cta-text" strokeWidth={2} />
+                        <Icon className="size-3.5 text-primary-cta-text" strokeWidth={2} />
                       </div>
-                      <span className="text-sm leading-snug">{feature.text}</span>
+                      <span className="text-sm leading-snug text-foreground/90">{feature.text}</span>
                     </div>
                   );
                 })}
