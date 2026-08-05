@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { routes } from "@/routes";
-import NavbarCentered from "@/components/ui/NavbarCentered";
 import FeaturesIconCards from "@/components/sections/features/FeaturesIconCards";
 import ContactCta from "@/components/sections/contact/ContactCta";
-import FooterSimple from "@/components/sections/footer/FooterSimple";
 import Input from "@/components/ui/Input";
 import Textarea from "@/components/ui/Textarea";
 import Button from "@/components/ui/Button";
@@ -18,15 +16,13 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <NavbarCentered
-        logo="Teranga Jets"
-        navItems={routes.map((r) => ({ name: r.label, href: r.path }))}
+    <div className="min-h-svh bg-background text-foreground">
+      <Navbar
         ctaButton={{ text: "Flight Support", href: "/contact" }}
       />
 
-      <section className="pt-28 pb-16 px-4 max-w-7xl mx-auto">
-        <div className="text-center max-w-3xl mx-auto mb-12">
+      <section className="px-4 max-w-content-width mx-auto">
+        <div className="text-center max-w-content-width mx-auto">
           <Tag text="Operations & Support" className="mb-4" />
           <h1 className="text-4xl font-bold tracking-tight mb-4">Contact Our Operations Team</h1>
           <p className="text-lg text-muted-foreground">
@@ -35,7 +31,7 @@ export default function ContactPage() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          <div className="lg:col-span-7 bg-card border border-border rounded-2xl p-6 sm:p-8">
+          <div className="lg:col-span-7 bg-card border border-border rounded-theme p-6 sm:p-8">
             <h2 className="text-xl font-semibold mb-6">Submit Flight Request</h2>
             {submitted ? (
               <div className="p-6 bg-primary-cta/10 text-primary-cta rounded-xl text-center">
@@ -84,7 +80,7 @@ export default function ContactPage() {
           </div>
 
           <div className="lg:col-span-5 space-y-6">
-            <div className="bg-card border border-border rounded-2xl p-6 space-y-4">
+            <div className="bg-card border border-border rounded-theme p-6 space-y-4">
               <h2 className="text-xl font-semibold">Operations Center</h2>
               <div className="space-y-3 text-sm">
                 <div>
@@ -110,7 +106,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="border border-border rounded-2xl overflow-hidden h-48 bg-card">
+            <div className="border border-border rounded-theme overflow-hidden h-48 bg-card">
               <iframe
                 title="Dakar Operations Center Map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345!2d-17.46768!3d14.73972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec172f3d242ef9d%3A0xb30cfd3d63bd1851!2sDakar%2C%20Senegal!5e0!3m2!1sen!2s!4v1600000000000!5m2!1sen!2s"
@@ -124,8 +120,7 @@ export default function ContactPage() {
 
       <FeaturesIconCards
         tag="Why Teranga Jets"
-        title="Why Contact Teranga Jets?"
-        description="Experience swift, reliable operational coordination tailored for mission-critical flights across Africa."
+        title="Why Contact Teranga Jets?"description="Experience swift, reliable operational coordination tailored for mission-critical flights across Africa."
         features={[
           { icon: "⚡", title: "Fast Response", description: "Permit processing and dispatch initiated instantly upon request." },
           { icon: "👤", title: "Dedicated Point of Contact", description: "Direct access to senior flight dispatchers managing your trip." },
@@ -143,15 +138,6 @@ export default function ContactPage() {
         textAnimation="slide-up"
       />
 
-      <FooterSimple
-        brand="Teranga Jets"
-        columns={[
-          { title: "Services", items: [{ label: "Overflight Permits", href: "/services" }, { label: "Ground Handling", href: "/services" }, { label: "Aviation Fuel", href: "/services" }] },
-          { title: "Operations", items: [{ label: "Dakar Hub", href: "/contact" }, { label: "24/7 Desk", href: "/contact" }, { label: "Contact Us", href: "/contact" }] }
-        ]}
-        copyright="© 2025 Teranga Jets. All rights reserved."
-        links={[{ label: "Privacy Policy", href: "/privacy" }, { label: "Terms of Service", href: "/terms" }]}
-      />
     </div>
   );
 }
