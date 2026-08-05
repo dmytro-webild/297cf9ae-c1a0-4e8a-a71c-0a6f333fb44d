@@ -38,7 +38,7 @@ const items = [
     imageSrc: "https://images.pexels.com/photos/7381958/pexels-photo-7381958.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=7381958"
   },
   {
-    title: "And much more around the globe around the globe",
+    title: "And many more destinations",
     description: "",
     imageSrc: "https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785560227995-pbixsfsq.jpg"
   }
