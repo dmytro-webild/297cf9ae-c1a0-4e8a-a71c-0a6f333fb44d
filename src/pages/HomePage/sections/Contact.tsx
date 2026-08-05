@@ -6,7 +6,7 @@ import Button from "@/components/ui/Button";
 
 const primaryButton = {
   text: "Request Flight Support",
-  href: "mailto:ops@terangajets.com"
+  href: "/contact"
 };
 const secondaryButton = {
   text: "WhatsApp ",

@@ -48,7 +48,7 @@ export default function Layout() {
       logoImageSrc="https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785521020960-pbcidjb1.png"
       ctaButton={{
         text: "Request Flight Support",
-        href: "#contact",
+        href: "/contact",
       }}
      navItems={navItems} />
       </SectionErrorBoundary>

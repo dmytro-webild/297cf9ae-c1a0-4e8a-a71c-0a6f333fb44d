@@ -11,9 +11,9 @@ export default function HeroSection(): React.JSX.Element {
         tag="African Hospitality. Global Aviation Excellence."
         textAnimation="slide-up"
         description="24/7 Flight Support, Landing & Overflight Permits, Ground Handling and Fuel Coordination Across Africa."
-        secondaryButton={{"text":"Contact 24/7 Operations","href":"#contact"}}
+        secondaryButton={{"text":"Contact Us via WhatsApp","href":"https://wa.me/12817074824"}}
         imageSrc="https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785560602855-khql2znq.png"
-        primaryButton={{"text":"Request Support Now","href":"#contact"}}
+        primaryButton={{"text":"Request Flight Support Now","href":"/contact"}}
       />
     </div>
   );
