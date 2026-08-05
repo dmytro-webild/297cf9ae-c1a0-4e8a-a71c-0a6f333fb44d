@@ -35,7 +35,7 @@ const items = [
   {
     title: "Ivory Coast",
     description: "",
-    imageSrc: "https://picsum.photos/seed/455788362/1200/800"
+    imageSrc: "https://images.pexels.com/photos/7381958/pexels-photo-7381958.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=7381958"
   },
   {
     title: "And much more around the globe around the globe",
