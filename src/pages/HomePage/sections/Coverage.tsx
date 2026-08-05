@@ -10,12 +10,12 @@ const items = [
   {
     title: "Senegal",
     description: "",
-    imageSrc: "https://images.pexels.com/photos/14434228/pexels-photo-14434228.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=14434228"
+    imageSrc: "https://picsum.photos/seed/808396181/1200/800"
   },
   {
     title: "Mauritania",
     description: "Operations",
-    imageSrc: "https://images.pexels.com/photos/35752246/pexels-photo-35752246.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=35752246"
+    imageSrc: "https://picsum.photos/seed/556526833/1200/800"
   },
   {
     title: "Cape Verde",
@@ -30,12 +30,12 @@ const items = [
   {
     title: "Guinea",
     description: "Ground Handling",
-    imageSrc: "https://images.pexels.com/photos/12251153/pexels-photo-12251153.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=12251153"
+    imageSrc: "https://picsum.photos/seed/343146927/1200/800"
   },
   {
     title: "Ivory Coast",
     description: "",
-    imageSrc: "https://images.pexels.com/photos/7381958/pexels-photo-7381958.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=7381958"
+    imageSrc: "https://picsum.photos/seed/455788362/1200/800"
   },
   {
     title: "And much more around the globe around the globe",
@@ -122,8 +122,9 @@ const CoverageInline = () => {
                   videoSrc={item.videoSrc}
                   className="rounded group-hover:scale-105 transition-transform duration-500"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
 
-                <div className="absolute inset-x-5 bottom-5 xl:inset-x-6 xl:bottom-6 2xl:inset-x-7 2xl:bottom-7 flex flex-col text-background">
+                <div className="absolute inset-x-5 bottom-5 xl:inset-x-6 xl:bottom-6 2xl:inset-x-7 2xl:bottom-7 flex flex-col text-white">
                   <span className="text-2xl font-semibold leading-snug truncate">{item.title}</span>
                   <span className="text-base leading-snug truncate">{item.description}</span>
                 </div>
