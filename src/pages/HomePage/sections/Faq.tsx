@@ -30,12 +30,12 @@ const categories = [
     ]
   },
   {
-    name: "Operations",
+    name: "",
     icon: Settings,
     items: [
       {
         question: "Are you available 24/7 for operational support?",
-        answer: "Yes, our Operations Control Center (OCC) is fully staffed 24/7/365 to handle urgent requests, monitor active flights, and provide real-time updates to your dispatch team."
+        answer: "Yes, our  Control Center (OCC) is fully staffed 24/7/365 to handle urgent requests, monitor active flights, and provide real-time updates to your dispatch team."
       },
       {
         question: "How do you handle fuel coordination?",
@@ -155,11 +155,11 @@ const FaqInline = () => {
           
           <div className="flex flex-col items-center gap-6 text-center pt-4">
             <h3 className="text-xl md:text-2xl font-semibold text-foreground">
-              Didn't find your answer? Our Operations Team is available 24/7.
+              Didn't find your answer? Our  Team is available 24/7.
             </h3>
             <div className="flex flex-wrap justify-center gap-4">
               <Button 
-                text="Contact Operations" 
+                text="Contact " 
                 href="#contact" 
                 variant="primary" 
               />
