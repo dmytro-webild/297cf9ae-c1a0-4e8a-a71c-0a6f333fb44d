@@ -10,7 +10,7 @@ const items = [
   {
     title: "Senegal",
     description: "",
-    imageSrc: "https://picsum.photos/seed/808396181/1200/800"
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785951431136-1fnw9pq8.jpg"
   },
   {
     title: "Mauritania",
