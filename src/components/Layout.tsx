@@ -1,4 +1,4 @@
-import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia';
+import { MapPin, Clock, Mail, MessageCircle, ArrowUpRight } from 'lucide-react';
 import NavbarFloatingLogo from '@/components/ui/NavbarFloatingLogo';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 import SiteBackgroundSlot from "@/components/ui/SiteBackgroundSlot";
@@ -54,33 +54,123 @@ export default function Layout() {
         <Outlet />
       </main>
       <SectionErrorBoundary name="footer">
-        <FooterSimpleMedia
-      imageSrc="https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785521020960-pbcidjb1.png"
-      brand="TERANGA JETS"
-      copyright="Teranga Jets © 2024"
-      links={[
-        { label: "All rights reserved. Global Aviation Excellence.", href: "#" }
-      ]}
-      columns={[
-        {
-          title: "Company",
-          items: [
-            { label: "About Us", href: "#about" },
-            { label: "Services", href: "#services" },
-            { label: "Coverage", href: "#coverage" },
-            { label: "Contact", href: "#contact" }
-          ]
-        },
-        {
-          title: "Social",
-          items: [
-            { label: "Twitter", href: "#" },
-            { label: "LinkedIn", href: "#" },
-            { label: "Instagram", href: "#" }
-          ]
-        }
-      ]}
-    />
+        <footer data-section="footer" aria-label="Site footer" className="w-full bg-[#0B1F3A] text-white pt-20 pb-12 border-t border-white/10 relative z-10">
+          <div className="w-content-width mx-auto px-4 sm:px-6">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 pb-16 border-b border-white/10">
+              {/* Brand & Description Column */}
+              <div className="lg:col-span-4 flex flex-col items-start pr-0 lg:pr-8">
+                <div className="flex items-center gap-4 mb-4">
+                  <img
+                    src="https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785521020960-pbcidjb1.png"
+                    alt="Teranga Jets"
+                    className="h-16 w-auto object-contain shrink-0"
+                  />
+                  <div>
+                    <span className="text-2xl font-bold tracking-wider text-white uppercase block leading-none">TERANGA JETS</span>
+                    <span className="text-[10px] font-semibold tracking-widest text-[#C9A227] uppercase mt-1 block">
+                      African Hospitality. Global Aviation Excellence.
+                    </span>
+                  </div>
+                </div>
+
+                <p className="text-sm text-slate-300 leading-relaxed max-w-sm my-4">
+                  Premium Flight Support, Trip Support, Ground Handling and Permit Coordination across Africa.
+                </p>
+
+                <div className="inline-flex items-center gap-2.5 px-3.5 py-2 rounded-full bg-white/5 border border-white/10 text-xs text-slate-300 mt-2">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />
+                  <span>24/7 Operations Center Active</span>
+                </div>
+              </div>
+
+              {/* 4 Nav Columns */}
+              <div className="lg:col-span-8 grid grid-cols-2 sm:grid-cols-4 gap-8">
+                {/* Column 1: Company */}
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-xs font-semibold text-[#C9A227] uppercase tracking-wider border-b border-white/10 pb-2.5">
+                    Company
+                  </h3>
+                  <ul className="flex flex-col gap-2.5 text-sm">
+                    <li><a href="#about" className="text-slate-300 hover:text-white transition-colors">About</a></li>
+                    <li><a href="#services" className="text-slate-300 hover:text-white transition-colors">Services</a></li>
+                    <li><a href="#coverage" className="text-slate-300 hover:text-white transition-colors">Coverage</a></li>
+                    <li><a href="#contact" className="text-slate-300 hover:text-white transition-colors">Contact</a></li>
+                  </ul>
+                </div>
+
+                {/* Column 2: Services */}
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-xs font-semibold text-[#C9A227] uppercase tracking-wider border-b border-white/10 pb-2.5">
+                    Services
+                  </h3>
+                  <ul className="flex flex-col gap-2.5 text-sm">
+                    <li><a href="#services" className="text-slate-300 hover:text-white transition-colors">Flight Support</a></li>
+                    <li><a href="#services" className="text-slate-300 hover:text-white transition-colors">Permits</a></li>
+                    <li><a href="#services" className="text-slate-300 hover:text-white transition-colors">Ground Handling</a></li>
+                    <li><a href="#services" className="text-slate-300 hover:text-white transition-colors">Fuel Coordination</a></li>
+                    <li><a href="#services" className="text-slate-300 hover:text-white transition-colors">Flight Planning</a></li>
+                  </ul>
+                </div>
+
+                {/* Column 3: Contact */}
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-xs font-semibold text-[#C9A227] uppercase tracking-wider border-b border-white/10 pb-2.5">
+                    Contact
+                  </h3>
+                  <ul className="flex flex-col gap-3 text-sm text-slate-300">
+                    <li className="flex items-start gap-2">
+                      <MapPin className="w-4 h-4 text-[#C9A227] shrink-0 mt-0.5" />
+                      <span>Dakar, Senegal</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <Clock className="w-4 h-4 text-[#C9A227] shrink-0" />
+                      <span>24/7 Operations</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <Mail className="w-4 h-4 text-[#C9A227] shrink-0" />
+                      <a href="mailto:ops@terangajets.com" className="hover:text-white transition-colors">Email</a>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <MessageCircle className="w-4 h-4 text-[#C9A227] shrink-0" />
+                      <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">WhatsApp</a>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Column 4: Follow Us */}
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-xs font-semibold text-[#C9A227] uppercase tracking-wider border-b border-white/10 pb-2.5">
+                    Follow Us
+                  </h3>
+                  <ul className="flex flex-col gap-2.5 text-sm">
+                    <li>
+                      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white transition-colors inline-flex items-center gap-1.5">
+                        <span>LinkedIn</span>
+                        <ArrowUpRight className="w-3.5 h-3.5 text-[#C9A227]" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white transition-colors inline-flex items-center gap-1.5">
+                        <span>Instagram</span>
+                        <ArrowUpRight className="w-3.5 h-3.5 text-[#C9A227]" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Bottom Bar */}
+            <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+              <p>© 2026 Teranga Jets. All rights reserved.</p>
+              <div className="flex items-center gap-6">
+                <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+                <span className="text-white/20">•</span>
+                <a href="#" className="hover:text-white transition-colors">Terms of Use</a>
+              </div>
+            </div>
+          </div>
+        </footer>
       </SectionErrorBoundary>
       
       {/* Floating WhatsApp Button */}
