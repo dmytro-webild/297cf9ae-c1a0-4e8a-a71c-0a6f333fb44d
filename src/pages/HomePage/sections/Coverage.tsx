@@ -15,7 +15,7 @@ const items = [
   {
     title: "Mauritania",
     description: "Operations",
-    imageSrc: "https://picsum.photos/seed/556526833/1200/800"
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3HFlmSIspXi2PPGG9NQeYj5TjjC/uploaded-1785951505708-xb0142ro.jpg"
   },
   {
     title: "Cape Verde",
