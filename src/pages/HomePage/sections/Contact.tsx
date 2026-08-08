@@ -5,11 +5,11 @@ import TextAnimation from "@/components/ui/TextAnimation";
 import Button from "@/components/ui/Button";
 
 const primaryButton = {
-  text: "Request Flight Support",
-  href: "/contact"
+  text: "Email ops@terangajets.com",
+  href: "mailto:ops@terangajets.com"
 };
 const secondaryButton = {
-  text: "WhatsApp ",
+  text: "WhatsApp +1 281 707 4824",
   href: "https://wa.me/12817074824"
 };
 
