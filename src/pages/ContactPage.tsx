@@ -1,21 +1,20 @@
+// AUTO-GENERATED shell by per-section-migrate.
+// Section bodies live in the sibling sections/ folder (one file per section).
+// Edit those section files directly. Non-block content (wrappers,
+// non-inlinable sections) is preserved inline; extracted section blocks
+// become component refs.
+
 import React, { useState } from "react";
-import FeaturesIconCards from "@/components/sections/features/FeaturesIconCards";
-import ContactCta from "@/components/sections/contact/ContactCta";
 import Input from "@/components/ui/Input";
 import Textarea from "@/components/ui/Textarea";
 import Button from "@/components/ui/Button";
 import Tag from "@/components/ui/Tag";
+import FeaturesSection from './ContactPage/sections/Features';
+import ContactSection from './ContactPage/sections/Contact';
 
-export default function ContactPage() {
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
-
+export default function ContactPage(): React.JSX.Element {
   return (
-    <div className="min-h-svh bg-background text-foreground">
+<div className="min-h-svh bg-background text-foreground">
       <section className="px-4 max-w-content-width mx-auto">
         <div className="text-center max-w-content-width mx-auto">
           <Tag text="Operations & Support" className="mb-4 mx-auto" />
@@ -113,25 +112,9 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <FeaturesIconCards
-        tag="Why Teranga Jets"
-        title="Why Contact Teranga Jets?"description="Experience swift, reliable operational coordination tailored for mission-critical flights across Africa."
-        features={[
-          { icon: "⚡", title: "Fast Response", description: "Permit processing and dispatch initiated instantly upon request." },
-          { icon: "👤", title: "Dedicated Point of Contact", description: "Direct access to senior flight dispatchers managing your trip." },
-          { icon: "🌍", title: "Local Expertise", description: "Deep relationships with African civil aviation authorities and ground crews." },
-          { icon: "🛡️", title: "International Standards", description: "Strict safety adherence conforming to global aviation requirements." }
-        ]}
-        textAnimation="slide-up"
-      />
+      <FeaturesSection />
 
-      <ContactCta
-        tag="Ready to Fly"
-        text="Ready for Your Next Mission? Our Operations Team is available 24/7 to support your flights across Africa."
-        primaryButton={{ text: "Request Flight Support", href: "/contact" }}
-        secondaryButton={{ text: "WhatsApp Ops Desk", href: "https://wa.me/12817074824" }}
-        textAnimation="slide-up"
-      />
+      <ContactSection />
     </div>
   );
 }
