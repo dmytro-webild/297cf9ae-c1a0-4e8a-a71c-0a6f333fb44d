@@ -30,6 +30,15 @@ export default function Layout() {
       <main className="flex-grow">
         <Outlet />
       </main>
+      <a
+        href="https://wa.me/19714476728"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contact us on WhatsApp"
+        className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] text-white rounded-full shadow-lg hover:bg-[#20ba5a] hover:scale-105 transition-all duration-300 group"
+      >
+        <MessageCircle className="w-7 h-7 fill-current stroke-none" />
+      </a>
       <SectionErrorBoundary name="footer">
         <footer data-section="footer" aria-label="Site footer" className="w-full bg-[#0B1F3A] text-white pt-20 pb-12 border-t border-white/10 relative z-10">
           <div className="w-content-width mx-auto px-4 sm:px-6">
