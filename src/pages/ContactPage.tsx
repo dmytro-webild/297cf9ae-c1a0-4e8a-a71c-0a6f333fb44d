@@ -65,7 +65,7 @@ export default function ContactPage(): React.JSX.Element {
                   rel="noreferrer"
                   className="text-xl font-semibold text-primary-cta hover:underline inline-flex items-center gap-2"
                 >
-                  +1 (281) 707-4824
+                  +1 (971) 447-6728
                 </a>
               </div>
             </div>
