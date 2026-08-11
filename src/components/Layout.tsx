@@ -110,7 +110,7 @@ export default function Layout() {
                     </li>
                     <li className="flex items-center gap-2">
                       <MessageCircle className="w-4 h-4 text-[#C9A227] shrink-0" />
-                      <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">WhatsApp</a>
+                      <a href="https://wa.me/19714476728" rel="noopener noreferrer" className="hover:text-white transition-colors">WhatsApp</a>
                     </li>
                   </ul>
                 </div>
