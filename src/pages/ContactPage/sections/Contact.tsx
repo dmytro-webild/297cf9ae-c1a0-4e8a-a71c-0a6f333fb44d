@@ -9,8 +9,8 @@ const primaryButton = {
   href: "mailto:ops@terangajets.com"
 };
 const secondaryButton = {
-  text: "WhatsApp: +1 281 707 4824",
-  href: "https://wa.me/12817074824"
+  text: "WhatsApp: +1 971 447 6728",
+  href: "https://wa.me/19714476728"
 };
 
 const ContactInline = () => {
